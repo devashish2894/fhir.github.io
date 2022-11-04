@@ -1,0 +1,705 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat;
+    
+}
+body{
+    background-color: #F6F6F6;
+}
+
+
+
+.pointy{
+    margin-right: 20px;
+}
+
+h1{font-size: 32px;
+margin-bottom: 22px;}
+
+
+header{
+    width: 100%;
+    height:80px;
+    background-color: rgb(244, 246, 246);
+    box-shadow: 0 1px 9px 2px rgb(127, 127, 127);
+    position: fixed;
+}
+
+.container1{
+    width: 1084px;
+    
+    margin: 0 auto;
+    height: 80px;
+   
+}
+
+.logo{
+    
+    width: 244px;
+    float: left;
+
+}
+
+.logo img{
+    height: 72px;
+}
+
+.navpanel{
+    width: 532px;
+    float:right;
+    margin: 28px 0;
+    
+    
+}
+nav ul{
+    
+    
+}
+
+nav ul li{
+    float: left;
+    margin-right: 36px;
+    list-style: none;
+    font-size: 18px;
+    cursor: pointer;
+}
+nav ul li:nth-child(5){
+    margin-left: 64px;
+}
+nav ul li:nth-child(6){
+    display: none;
+
+}
+.hamburger{
+    width: 50px;
+    float: left;
+    margin-top: 28px;
+    display: none;
+    
+}
+
+
+/* header endes */
+
+
+.first{
+    width:100%;
+    
+}
+
+.container2{
+    width: 1084px;
+    
+    margin: 0 auto;
+    height: 501px;
+
+}
+
+.fhirbox{
+    width: 50%;
+    height: 501px;
+    float: left;
+    
+}
+
+.fhirbox p{
+font-size: 42px;
+font-weight:700;
+margin-top: 180px;
+text-align: center;
+}
+
+.fhirbox span{
+    font-size: 50px;
+    color: #DF852A;
+    font-weight: bold;
+}
+
+.fhirbox button{
+    height: 50px;
+    width: 313px;
+    background-color: #1F8CD1;
+    color:white;
+    border-radius: 25px;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    margin:30px 0 0 110px;
+}
+
+.fhirimage{
+    width: 50%;
+    height: 501px;
+    float: right;
+    
+    
+    
+}
+
+.fhirimage img{
+    
+    height: 583px;
+    margin-top: 9px;
+}
+
+/* banner ends */
+
+/* intro starts */
+
+
+.third{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+.container3{
+    width: 1084px;
+   margin: 36px auto;
+    height: 416px;
+    padding-top: 20px;
+
+}
+
+
+
+.container3 p{
+    line-height: 31px;
+    font-size: 20px;
+
+}
+ .blu{
+    color: #1F8CD1;
+    font-size: 22px;
+    font-weight: 500;
+}
+.oran{
+    color: #DF852A;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.pipeline{
+    width: 716px;
+    height: 130px;
+    margin: 46px auto;
+    
+    
+}
+
+
+.pipeline ul{
+   
+}
+.pipeline ul li{
+    background-color: #ffffff;
+    width: 130px;
+    height:130px;
+    border:2px solid rgb(135, 135, 135,0.3);
+    border-radius: 50%;
+    list-style: none;
+    float: left;
+   
+    
+    
+    
+}
+
+.pipeline ul li:nth-child(2), .pipeline ul li:nth-child(3){
+    margin-left: 163px;
+}
+.pipeline ul li img{
+    height: 81px;
+    margin:22px auto;
+    display: block;
+    color: #DF852A;
+   
+   
+}
+
+
+
+
+
+   
+
+
+/* into ends */
+
+/* comply begins */
+
+.four{
+    width: 100%;
+}
+
+
+
+
+
+.container4{
+    width: 1084px;
+    margin: 36px auto;
+    height: 549px;
+}
+
+
+
+
+
+.container4 p{
+    line-height: 31px;
+    font-size: 20px;
+
+
+}
+
+
+.ban2{
+    height:359px;
+    width: 1084px;
+    background-color: bisque;
+}
+.laptopgirl{
+    width: 50%;
+    height: 365px;
+    float: left;
+}
+.laptopgirl img{
+    height: 366px;
+}
+
+.list {
+    width: 50%;
+    height: 365px;
+    background-color: #1A9CB0;
+    float: right;
+    color: white;
+    padding-top: 28px;
+}
+.list h2{
+    font-size: 24px;
+    margin-bottom: 22px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.list ul{
+    margin-left: 80px;
+    line-height: 31px;
+    font-size: 18px;
+}
+.list ul li {
+    list-style: none;
+}
+/* comply panel ends */
+
+/* challanges panel */
+
+.five{
+    width: 100%;
+    background-color: #ffffff;
+
+}
+
+.container5{
+    width: 1084px;
+    margin: 36px auto;
+    height: 785px;
+    padding-top: 20px;
+
+}
+
+.container5 p{
+    font-size: 20px;
+}
+
+.cardcontain{
+    width: 1084px;
+    height: 640px;
+    margin-top: 13px;
+}
+
+.card{
+    width: 348px;
+    height: 312px;
+    background-color: #EFEFEF;
+    text-align: center;
+    padding-top: 15px;
+    margin-top: 1px;
+    float: left;
+    margin-right: 13px;
+    margin-bottom: 13px;
+    
+    
+    
+}
+
+.iconss{
+    
+   margin-top: 25px;
+   fill: #1d4f81;
+}
+
+.card:hover{
+    cursor: pointer;
+
+}
+.card .circle{
+    width: 108px;
+    height: 108px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    margin: 15px auto;
+    transition: 0.4s ease-in-out;
+    
+}
+
+.card:hover .circle {
+    background-color: #eb9412;
+    transition: 0.9s ease;
+}
+.card:hover .iconss{
+    fill: #ffffff;
+
+}
+
+.card h3  {
+    font-size: 24px;
+    margin-bottom: 17px;
+    margin-top: 15px;
+    
+}
+
+.card p{
+    font-size: 18px;
+}
+
+/* challanges panel ends */
+
+/* help pnal begins */
+
+.six{
+    width: 100%;
+}
+
+.container6{
+    width: 1084px;
+    margin: 35px auto;
+    height: 436px;
+
+}
+.container6 p{
+    font-size: 20px;
+}
+.cardbox{
+    width:1084px;
+    height: 330px;
+    margin-top: 25px;
+    margin-top: 30px;
+}
+
+.card2{
+    height:330px ;
+    width:348px ;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 36px;
+    transition: 0.5s ease;
+    float: left;
+    margin-right: 13px;
+
+}
+.card2 h3{
+    font-size: 24px;
+    
+    
+
+}
+.card2 p{
+    font-size: 18px;
+    margin-top: 46px;
+}
+
+.card2:hover{
+    transform: translateY(-20px);
+    transition: 0.5s ease;
+}
+
+.cardbox .card2:nth-child(2) , .card2:nth-child(3) {
+    padding-top: 94px;
+    
+}
+
+/* help panel ends  */
+
+/* worled on panel begins */
+
+.seven{
+    width: 100%;
+    background-color: #ffffff;
+ 
+   
+}
+
+.container7{
+    width:1084px ;
+    margin: 55px auto;
+    height: 278px;
+    padding-top: 20px;
+    
+}
+
+.container7 p{
+    font-size: 20px;
+}
+.logobox{
+    width: 1084px;
+    height: 163px;
+    
+}
+
+.logobox ul li{
+    float: left;
+    list-style: none;
+    margin: 45px 27px 27px 25px
+}
+
+.logobox ul li img{
+    height: 71px;
+}
+
+
+
+
+
+/* partner pannel starts */
+
+.eight{
+    width:100%;
+
+}
+
+.container8{
+    width:1084px;
+    margin: 55px auto;
+    height: 623px;
+
+}
+.partner{
+    width: 50%;
+    height: 481px;
+    float: left;
+
+}
+.partner img{
+   
+   margin-left: 10px;
+}
+
+.why{
+    width: 50%;
+    height: 481px;
+    float: right;
+
+
+}
+.panel{
+    width: 532px;
+    height: 83px;
+    background-color:#1A9BAF;
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: 40px;
+    padding: 25px 0;
+    
+}
+.panel p{
+    font-size: 20px;
+    color: #ffffff;
+    
+}
+
+/* partner panel ends */
+
+
+/* footer panel */
+
+footer{
+    width: 1084px;
+    height:30px;
+    margin: 0 auto;
+    background-color: #1F8CD1;
+   
+
+}
+footer p{
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    font-size: 16px;
+}
+
+
+
+
+
+/* responsive for mobile devices */
+
+@media only screen and (max-width: 576px) {
+    .container1, .container2, .container3, .fhirbox, .fhirimage, .card, .cardcontain{width: 100%;}
+    h1{
+        text-align: center;
+    }
+    .hamburger{
+        width: 50px;
+        float: left;
+        margin-top: 28px;
+        display: block;
+        float: right;
+        cursor: pointer;
+    }
+   
+    .container2{background-image:url("img/Server-bro1.png");
+        background-position:100%;}
+
+    
+        .navpanel{display: none;}
+        .fhirimage{
+           display: none;}
+        
+        
+    .logo{margin-left: 10px;}
+
+
+    .container3{
+        width: 100%;
+        height: 500px;
+    padding-left: 5px;}
+
+
+
+        .pipeline ul li{
+            
+            width: 70px;
+            height:70px;
+            
+           
+            
+            
+            
+        }
+        
+        .pipeline ul li:nth-child(2), .pipeline ul li:nth-child(3){
+            margin-left: 125px;
+        }
+        .pipeline ul li img{
+            height: 40px;
+            margin:15px auto;
+            
+           
+           
+        }
+
+        .container4{
+            width: 100%;
+            margin: 36px auto;
+            height: 549px;
+        }
+
+        .laptopgirl{
+            display: none;
+        }
+
+        .list {
+            width: 100%;
+            height: 365px;}
+
+            .ban2{
+                height:359px;
+                width: 100%;
+                background-color: bisque;}
+
+
+        .container5{
+                    width: 100%;
+                    height: 800px;
+                    
+                }
+                .container6{
+                    width: 100%;
+                    height: 1225px;
+                    float: left;
+                    
+                }
+
+                .cardbox{
+                    width:100%;
+                    height: 830px;}
+
+                    .card2{
+                        height:330px ;
+                        width:348px ;
+                        
+                        margin: 26px 35px 25px 61px;
+                    }
+                    
+
+                    .seven{
+                        display: none;
+                       
+                    }
+                    
+                    .container7{
+                        width:100% ;
+                        margin: 55px auto;
+                        height: 578px;
+                        padding-top: 20px;
+                        float: left;
+                        
+                    }
+                    .eight{
+                        width:100%;
+                    height: 500px;
+                margin-top: 100px;}
+                    
+                    .container8{
+                        width:100%;
+                        margin: 55px auto;
+                        height: 600px;
+                        float: left;
+                    
+                    } 
+
+            .partner{
+                display: none;
+            }
+
+            .why{
+                float: left;
+                width: 100%;
+                background-image: url(img/istockphoto-1362721b.svg);
+                background-repeat: no-repeat;
+
+                
+            }
+            .panel{
+                width: 80%;
+                height: 83px;
+                background-color:#1A9BAF;
+                text-align: center;
+                border-radius: 5px;
+                margin:0 auto 35px;
+                padding: 25px 0;}
+
+                footer{
+                    float: left;
+                    width: 100%;
+                }
+                footer p{
+                    text-align: center;
+                    font-size: 16px;
+                }
+
+  }
